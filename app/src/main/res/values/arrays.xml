@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="options_icon">
+        <item>@drawable/ic_system_update_black_48dp</item>
+        <item>@drawable/ic_settings_black_48dp</item>
+        <item>@drawable/ic_usb_black_48dp</item>
+        <item>@drawable/ic_google_play</item>
+    </integer-array>
+
+    <integer-array name="options_icon_selected">
+        <item>@drawable/ic_system_update_white_48dp</item>
+        <item>@drawable/ic_settings_white_48dp</item>
+        <item>@drawable/ic_usb_white_48dp</item>
+        <item>@drawable/ic_google_play</item>
+    </integer-array>
+
+    <string-array name="options_name">
+        <item>@string/update</item>
+        <item>@string/settings</item>
+        <item>@string/open_usb</item>
+        <item>@string/play_store</item>
+    </string-array>
+
+</resources>

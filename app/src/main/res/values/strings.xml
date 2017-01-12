@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AdTRUE</string>
+
+    <string name="exit_app_notification">Thoát ứng dụng</string>
+    <string name="exit_app_question">Bạn có muốn thoát <b>%1$s</b> không ?</string>
+    <string name="pin_input_invalid">Số PIN bạn điền không hợp lệ!</string>
+    <string name="notice_internet_access">Thiết bị không có kết nối mạng, bạn muốn bật wifi hay 3G chứ ?</string>
+
+    <string name="update_new_version">Cập nhật phiên bản mới</string>
+    <string name="update_new_version_notification">Bạn có muốn cập nhật ko ?</string>
+    <string name="no_update_requirement">Ứng dụng đã được cập nhật</string>
+    <string name="update_information">Thông tin cập nhật ứng dụng</string>
+
+    <string name="ok_btn">OK</string>
+    <string name="yes_btn">Có</string>
+    <string name="no_btn">Không</string>
+
+    <!-- Options -->
+    <string name="update">Cập nhật</string>
+    <string name="settings">Cài đặt</string>
+    <string name="play_store">Google Play</string>
+    <string name="open_usb">Mở usb</string>
+
+    <string name="playing_stance">playing section</string>
+    <string name="ads_open_guided">Quảng cáo sẽ mở trong</string>
+    <string name="ads_close_guided">Quảng cáo sẽ đóng trong</string>
+</resources>

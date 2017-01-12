@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/icon_ads"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/ads_1"
+        android:scaleType="centerCrop"/>
+
+    <TextClock
+        android:id="@+id/text_time"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:lines="1"
+        android:padding="5dp"
+        android:gravity="right"
+        android:background="@android:color/darker_gray"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_light"/>
+
+    <com.attvn.adtruevn.ui.ScrollTextView
+        android:id="@+id/text_scrollable_content"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_light"
+        android:text="Single-line text view that scrolls automatically if the text is too long to fit in the widget Single-line text view that scrolls automatically if the text is too long to fit in the widget Single-line text view that scrolls automatically if the text is too long to fit in the widget Single-line text view that scrolls automatically if the text is too long to fit in the widget Single-line text view that scrolls automatically if the text is too long to fit in the widget"
+        android:lines="1"
+        android:background="@android:color/background_dark"
+        android:padding="5dp"
+        android:layout_marginLeft="140dp"
+        android:layout_below="@id/icon_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
